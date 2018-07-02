@@ -1,17 +1,29 @@
+/*Process Slider*/
+
 .process-slider {
   background-color: #000;
   color: #fff;
+  position: relative;
+  height: 600px;
 }
 
-.process-slide img {
+.process-slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
-/* .process-swiper-container {
-  height: 100%;
-} */
+.company-process-inner .button-setting {
+  color: #333;
+}
 
-/* .sidebar_menu {
-  width: 100vw;
-  height: 100vh;
-} */
+.company-process-inner .button-setting:hover,
+.company-process-inner .button-setting:focus {
+  color: #fff !important;
+}
+
+#main-slider-section video {
+  object-fit: cover;
+  height: 100%;
+}

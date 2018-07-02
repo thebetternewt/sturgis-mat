@@ -2032,7 +2032,7 @@ p {
 /* About Services Styling Start */
 
 .about-company-services {
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 
 .about-company-services-two {
@@ -2059,7 +2059,7 @@ p {
     height: 50px;
     width: 50px;
     position: relative;
-    background: #333333;
+    background: #745d9c;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     display: block;
@@ -2518,176 +2518,6 @@ p {
     box-shadow: 0 0 40px 40px #333 inset !important
 }
 
-/*----- Sponsors Slider -----*/
-
-.sponsor-image-outer {
-    width: 45%;
-    display: block;
-    margin: 0 auto;
-}
-
-/*----- Contact Form Styling Start -----*/
-
-.company-contact-detail {
-    background: #ffffff;
-    -webkit-box-shadow: 0px 0px 26px 16px rgba(0, 0, 0, 0.02);
-    box-shadow: 0px 0px 26px 16px rgba(0, 0, 0, 0.02);
-    padding: 40px 25px;
-}
-
-.company-social-icons-list {
-    display: inline;
-    padding: 0 5px;
-    color: #797979;
-}
-
-.company-social-icons-list:nth-child(1) {
-    padding-left: 0;
-}
-
-.company-social-icons-list a {
-    display: inline-block;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    -webkit-transition: 300ms;
-    -o-transition: 300ms;
-    transition: 300ms;
-}
-
-.company-social-icons-list a.facebook-icon:hover,
-.company-social-icons-list a.facebook-icon:focus {
-    color: #4267b2;
-}
-
-.company-social-icons-list a.twitter-icon:hover,
-.company-social-icons-list a.twitter-icon:focus {
-    color: #00aced;
-}
-
-.company-social-icons-list a.instagram-icon:hover,
-.company-social-icons-list a.instagram-icon:focus {
-    color: #285AEB;
-}
-
-.company-social-icons-list a.googleplus-icon:hover,
-.company-social-icons-list a.googleplus-icon:focus {
-    color: #d34836;
-}
-
-.company-social-icons-list a.dribble-icon:hover,
-.company-social-icons-list a.dribble-icon:focus {
-    color: #ea4c89;
-}
-
-.company-social-icons-list a.linkedin-icon:hover,
-.company-social-icons-list a.linkedin-icon:focus {
-    color: #0077b5;
-}
-
-.form-control {
-    height: 50px;
-}
-
-.contact-form-textfield input,
-.contact-form-textfield textarea {
-    font-size: 16px;
-    border: none;
-    border-bottom: 1px solid #c3c3c3;
-    color: #c3c3c3 !important;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    padding-left: 0;
-    -webkit-transition: 300ms ease-in all;
-    -o-transition: 300ms ease-in all;
-    transition: 300ms ease-in all;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.contact-form-textfield input::-webkit-input-placeholder,
-.contact-form-textfield textarea::-webkit-input-placeholder {
-    color: #c3c3c3;
-}
-
-.contact-form-textfield input:-moz-placeholder,
-.contact-form-textfield textarea:-moz-placeholder {
-    color: #c3c3c3;
-}
-
-.contact-form-textfield input::-moz-placeholder,
-.contact-form-textfield textarea::-moz-placeholder {
-    color: #c3c3c3;
-}
-
-.contact-form-textfield input:-ms-input-placeholder,
-.contact-form-textfield textarea:-ms-input-placeholder {
-    color: #c3c3c3;
-}
-
-.contact-form-textfield input::placeholder,
-.contact-form-textfield textarea::placeholder {
-    color: #c3c3c3;
-}
-
-.contact-form-textfield input:focus,
-.contact-form-textfield textarea:focus {
-    border-color: #333333;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    color: #333333;
-}
-
-.contact-form-textfield textarea {
-    height: 120px;
-    resize: none;
-}
-
-/*----- Footer Stlying Starts -----*/
-
-.footer-web-link {
-    -webkit-transition: 300ms all linear;
-    -o-transition: 300ms all linear;
-    transition: 300ms all linear;
-}
-
-.footer-web-link:hover {
-    color: #11b0cc;
-}
-
-.footer-links-outer li {
-    display: inline-block;
-    color: #333333;
-}
-
-.footer-links-inner a {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    -webkit-transition: 300ms;
-    -o-transition: 300ms;
-    transition: 300ms;
-}
-
-.footer-links-inner:hover a,
-.footer-links-inner:focus a {
-    color: #11b0cc;
-}
-
-.footer-links-outer .footer-divider {
-    padding: 0 7px;
-}
-
-.footer-logo {
-    float: right;
-    width: 120px;
-}
-
-.footer-logo img {
-    width: 100%;
-}
-
 /* Blog.html + Blog-detail.html Page Styling */
 
 .blog-section {
@@ -2973,6 +2803,168 @@ p {
 
 .blog-detail-contact-form {
     margin-top: 30px;
+}
+
+/*----- Contact Form Styling Start -----*/
+
+.company-contact-detail {
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 26px 16px rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 0px 26px 16px rgba(0, 0, 0, 0.02);
+    padding: 40px 25px;
+}
+
+.company-social-icons-list {
+    display: inline;
+    padding: 0 5px;
+    color: #797979;
+}
+
+.company-social-icons-list:nth-child(1) {
+    padding-left: 0;
+}
+
+.company-social-icons-list a {
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.company-social-icons-list a.facebook-icon:hover,
+.company-social-icons-list a.facebook-icon:focus {
+    color: #4267b2;
+}
+
+.company-social-icons-list a.twitter-icon:hover,
+.company-social-icons-list a.twitter-icon:focus {
+    color: #00aced;
+}
+
+.company-social-icons-list a.instagram-icon:hover,
+.company-social-icons-list a.instagram-icon:focus {
+    color: #285AEB;
+}
+
+.company-social-icons-list a.googleplus-icon:hover,
+.company-social-icons-list a.googleplus-icon:focus {
+    color: #d34836;
+}
+
+.company-social-icons-list a.dribble-icon:hover,
+.company-social-icons-list a.dribble-icon:focus {
+    color: #ea4c89;
+}
+
+.company-social-icons-list a.linkedin-icon:hover,
+.company-social-icons-list a.linkedin-icon:focus {
+    color: #0077b5;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.contact-form-textfield input,
+.contact-form-textfield textarea {
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #c3c3c3;
+    color: #c3c3c3 !important;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding-left: 0;
+    -webkit-transition: 300ms ease-in all;
+    -o-transition: 300ms ease-in all;
+    transition: 300ms ease-in all;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form-textfield input::-webkit-input-placeholder,
+.contact-form-textfield textarea::-webkit-input-placeholder {
+    color: #c3c3c3;
+}
+
+.contact-form-textfield input:-moz-placeholder,
+.contact-form-textfield textarea:-moz-placeholder {
+    color: #c3c3c3;
+}
+
+.contact-form-textfield input::-moz-placeholder,
+.contact-form-textfield textarea::-moz-placeholder {
+    color: #c3c3c3;
+}
+
+.contact-form-textfield input:-ms-input-placeholder,
+.contact-form-textfield textarea:-ms-input-placeholder {
+    color: #c3c3c3;
+}
+
+.contact-form-textfield input::placeholder,
+.contact-form-textfield textarea::placeholder {
+    color: #c3c3c3;
+}
+
+.contact-form-textfield input:focus,
+.contact-form-textfield textarea:focus {
+    border-color: #333333;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #333333;
+}
+
+.contact-form-textfield textarea {
+    height: 120px;
+    resize: none;
+}
+
+/*----- Footer Stlying Starts -----*/
+
+.footer-web-link {
+    -webkit-transition: 300ms all linear;
+    -o-transition: 300ms all linear;
+    transition: 300ms all linear;
+}
+
+.footer-web-link:hover {
+    color: #11b0cc;
+}
+
+.footer-links-outer li {
+    display: inline-block;
+    color: #fff;
+}
+
+.footer-links-inner a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.footer-links-inner:hover a,
+.footer-links-inner:focus a {
+    color: #11b0cc;
+}
+
+.footer-links-outer .footer-divider {
+    padding: 0 7px;
+}
+
+.footer-logo {
+    float: right;
+    width: 120px;
+}
+
+.footer-logo img {
+    width: 100%;
 }
 
 /* Large Devices Having Width > 1600px */
