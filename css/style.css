@@ -190,7 +190,8 @@ p {
 }
 
 .text-color-secondary {
-    color: #00abc9;
+    /* color: #00abc9; */
+    color: #745d9c;
 }
 
 .text-color-white {
@@ -491,8 +492,10 @@ p {
 
 .button-setting-secondary:hover,
 .button-setting-secondary:focus {
-    -webkit-box-shadow: 0 0 40px 40px #11b0cc inset !important;
-    box-shadow: 0 0 40px 40px #11b0cc inset !important;
+    /* -webkit-box-shadow: 0 0 40px 40px #11b0cc inset !important;
+    box-shadow: 0 0 40px 40px #11b0cc inset !important; */
+    -webkit-box-shadow: 0 0 40px 40px #745d9c inset !important;
+    box-shadow: 0 0 40px 40px #745d9c inset !important;
 }
 
 .button-setting-white:hover {
@@ -2531,9 +2534,11 @@ p {
     position: absolute;
     right: 0;
     width: 50%;
+    height: 100%;
     max-width: 99%;
     margin: 0 auto;
     top: 0;
+    overflow: hidden;
 }
 
 .blog-section .blog-picture.left {
@@ -2570,7 +2575,7 @@ p {
 }
 
 .blog-picture>img {
-    width: 100%;
+    height: 100%;
 }
 
 .blog-listing-inner,
@@ -3395,6 +3400,7 @@ p {
     .blog-section .blog-picture {
         position: relative;
         width: 100%;
+        height: 350px;
     }
     .blog-section .blog-picture::after {
         content: "";

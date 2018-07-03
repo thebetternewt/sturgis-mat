@@ -595,11 +595,11 @@ jQuery(function($) {
       mediaQueries: [
         {
           width: 1500,
-          cols: 2
+          cols: 1
         },
         {
           width: 1100,
-          cols: 2
+          cols: 1
         },
         {
           width: 768,
