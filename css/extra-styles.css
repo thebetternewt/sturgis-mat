@@ -5,13 +5,21 @@
   color: #fff;
   position: relative;
   height: 600px;
+  max-height: calc(100vh - 70px);
 }
 
-.process-slider img {
+.process-slide img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.process-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .company-process-inner .button-setting {
@@ -25,5 +33,5 @@
 
 #main-slider-section video {
   object-fit: cover;
-  height: 100%;
+  min-height: 100%;
 }

@@ -150,7 +150,8 @@ p {
 }
 
 .background-secondary {
-    background-color: #00abc9;
+    /* background-color: #00abc9; */
+    background-color: #745d9c;
 }
 
 .background-grey {
@@ -2048,6 +2049,7 @@ p {
     transition: 300ms all ease;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    height: 80%;
 }
 
 .about-company-services-block-inner:hover {
