@@ -2098,12 +2098,13 @@ p {
 /*About Information*/
 
 .company-information-inner .button-setting {
-    color: #333;
+    color: #fff;
+    border: none;
 }
 
 .company-information-inner .button-setting:hover,
 .company-information-inner .button-setting:focus {
-    color: #fff !important;
+    color: #333 !important;
 }
 
 /* ----- Team Section Styling Start ----- */

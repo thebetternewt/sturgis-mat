@@ -60,6 +60,16 @@
   <!-- My Extra CSS Styles -->
   <link rel="stylesheet" href="css/extra-styles.css">
 
+  <!-- Photoswipe Styles -->
+  <!-- Core CSS file -->
+  <link rel="stylesheet" href="css/photoswipe.css">
+
+  <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+  <link rel="stylesheet" href="css/ps-default-skin/default-skin.css">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -242,8 +252,8 @@
               <p class="text-color-white fontface-two paragraph-23 padding-bottom-45 wow fadeInLeft" data-wow-delay="400ms">Not only are our products made from the finest oak hardwood east of the Mississippi, but the Sturgis Mat Company
                 Team is built around integrity and dedication to each and every customer.
               </p>
-              <a href="#contact-form-section" class="scroll button-setting background-white button-setting-primary text-color-dark wow fadeInLeft"
-                data-wow-delay="450ms">Contact Us Today</a>
+              <button id="pswp-btn" class="button-setting background-primary button-setting-white text-color-white wow fadeInLeft"
+                data-wow-delay="450ms">See Our Manufacturing Process</button>
             </div>
           </div>
         </div>
@@ -259,11 +269,11 @@
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="stats-block-inner text-center wow fadeInUp" data-wow-delay="300ms">
-                  <i class="ti-hand-point-right text-color-dark "></i>
+                  <i class="fal fa-certificate text-color-dark "></i>
                   <div class="stats-number-inner text-color-dark fontface-one font-weight-700 padding-top-20">
                     <span>4200</span>+
                   </div>
-                  <p class="paragraph-16 font-weight-400 fontface-two text-color-dark padding-top-5">Satisfied Customers</p>
+                  <p class="paragraph-16 font-weight-400 fontface-two text-color-dark padding-top-5">Years of Experience</p>
                 </div>
               </div>
 
@@ -273,16 +283,16 @@
                   <div class="stats-number-inner text-color-dark fontface-one font-weight-700 padding-top-20">
                     <span>9500</span>+
                   </div>
-                  <p class="paragraph-16 font-weight-400 fontface-two text-color-dark padding-top-5">Completed Consultations</p>
+                  <p class="paragraph-16 font-weight-400 fontface-two text-color-dark padding-top-5">Mats Produced</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="stats-block-inner text-center wow fadeInUp" data-wow-delay="400ms">
-                  <i class="ti-blackboard text-color-dark "></i>
+                  <i class="ti-hand-point-right text-color-dark "></i>
                   <div class="stats-number-inner text-color-dark fontface-one font-weight-700 padding-top-20">
                     <span>6000</span>+
                   </div>
-                  <p class="paragraph-16 font-weight-400 fontface-two text-color-dark padding-top-5">Carried Out Trainings</p>
+                  <p class="paragraph-16 font-weight-400 fontface-two text-color-dark padding-top-5">Satisfied Customers</p>
                 </div>
               </div>
             </div>
@@ -300,7 +310,7 @@
                   </h2>
                 </div>
                 <div class="stats-heading-detail text-right wow fadeInUp" data-wow-delay="350ms">
-                  <p class="paragraph-14 text-color-darkgrey fontface-two">Treely is a design studio founded in London, Nowadays we've grown and expanded our services.</p>
+                  <p class="paragraph-14 text-color-darkgrey fontface-two">Sturgis Mat strives for customer satisfaction and quality in all of our products.</p>
                 </div>
               </div>
             </div>
@@ -309,38 +319,6 @@
       </div>
     </section>
     <!-- Company Stats Information End -->
-
-    <!-- Company Process Start -->
-    <section class="company-portfolio-section padding-top-bottom background-dark" id="company-portfolio-section">
-      <div class="container">
-        <div class="section-heading">
-          <div class="row">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="300ms">
-              <h2 class="fontface-one text-color-white padding-bottom-35">Our
-                <span class="text-color-secondary font-weight-700 ">Process</span>
-              </h2>
-            </div>
-            <div class="col-md-12">
-
-              <div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic">
-                <div class="cbp-item graphic wow fadeInUp" data-wow-delay="300ms">
-                  <a href="images/portfolio-2.jpg" class="cbp-caption cbp-lightbox" data-title="Workout Buddy<br>by Tiberiu Neamu">
-                    <div class="cbp-caption-defaultWrap">
-                      <img src="images/portfolio-2.jpg" alt="">
-                    </div>
-                    <div class="cbp-caption-activeWrap portfolio-hover-effect">
-                      <i class="ti-zoom-in"></i>
-                    </div>
-                  </a>
-                  <!-- <h3 class="fontface-one font-weight-500 portfolio-heading-text padding-top-30 padding-bottom-15">Branding Work</h3> -->
-                  <p class="fontface-two paragraph-18 font-weight-500 portfolio-detail-text">Click the image above to see our process</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-    <!-- Company Process End -->
 
     <section class="blog-section pt-5" id="products-section">
       <div class="blog-picture left">
@@ -486,8 +464,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 order-lg-1 order-md-3 order-sm-3 order-3 wow fadeIn" data-wow-delay="300ms">
-            <p class="paragraph-13 footer-copyright-text font-weight-500 fontface-two padding-top-10">&copy; 2018 treely. made with love by
-              <a href="http://www.themesindustry.com/" class="footer-web-link"> themesindustry</a>
+            <p class="paragraph-13 footer-copyright-text font-weight-500 fontface-two padding-top-10">&copy; 2018 Sturgis Mat. Site by
+              <a href="http://www.themesindustry.com/" class="footer-web-link"> Relate Media & Design</a>
             </p>
           </div>
 
@@ -551,6 +529,74 @@
     </nav>
   </div>
 
+  <!-- PHOTOSWIPE -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+      It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. 
+      PhotoSwipe keeps only 3 of them in the DOM to save memory.
+        Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
 
   <!-- jQuery v3.1.1 -->
   <!-- <script src="js/jquery.js"></script> -->
@@ -609,6 +655,13 @@
 
   <!--wow Transitions-->
   <script src="js/wow.min.js"></script>
+
+  <!-- Photoswipe JS -->
+  <!-- Core JS file -->
+  <script src="js/photoswipe.min.js"></script>
+
+  <!-- UI JS file -->
+  <script src="js/photoswipe-ui-default.min.js"></script>
 
   <!-- Custom JavaScript -->
   <script src="js/script.js"></script>
