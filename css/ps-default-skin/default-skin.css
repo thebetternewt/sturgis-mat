@@ -518,6 +518,10 @@ a.pswp__share--download:hover {
 
 /* root element of UI */
 
+.pswp {
+  z-index: 10000;
+}
+
 .pswp__ui {
   -webkit-font-smoothing: auto;
   visibility: visible;
