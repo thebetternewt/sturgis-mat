@@ -715,14 +715,100 @@ const openPhotoSwipe = () => {
   // build items array
   var items = [
     {
-      src: 'https://placekitten.com/600/400',
-      w: 600,
-      h: 400
+      src: 'images/process-1.jpg',
+      w: 230,
+      h: 420,
+      title: 'Fine mats begin as fine timber.'
+    },
+    // {
+    //   src: 'images/process-2.jpg',
+    //   w: 409,
+    //   h: 448
+    // },
+    {
+      src: 'images/process-3.jpg',
+      w: 456,
+      h: 248,
+      title:
+        'Our timber harvesting division can be seen here processing future mats.'
     },
     {
-      src: 'https://placekitten.com/1200/900',
-      w: 1200,
-      h: 900
+      src: 'images/process-4.jpg',
+      w: 401,
+      h: 265
+    },
+    {
+      src: 'images/process-5.jpg',
+      w: 384,
+      h: 306,
+      title:
+        'Next stop, the Sturgis Mat Company’s innovative mat making facility...'
+    },
+    {
+      src: 'images/process-6.jpg',
+      w: 544,
+      h: 337
+    },
+    {
+      src: 'images/process-7.jpg',
+      w: 576,
+      h: 340
+    },
+    {
+      src: 'images/process-8.jpg',
+      w: 440,
+      h: 280
+    },
+    {
+      src: 'images/process-9.jpg',
+      w: 366,
+      h: 281,
+      title:
+        'Once the logs arrive at the Sturgis Mat Company’s facility, they are cut to the specified size  and length, and then readied for the hole boring process.'
+    },
+    {
+      src: 'images/process-10.jpg',
+      w: 396,
+      h: 281
+    },
+    {
+      src: 'images/process-11.jpg',
+      w: 408,
+      h: 258
+    },
+    {
+      src: 'images/process-12.jpg',
+      w: 611,
+      h: 244,
+      title:
+        'The Sturgis Mat Company’s innovative mat making machine finishes the process off by boring the holes and installing the appropriate hardware (bolts, cables, etc.).'
+    },
+    {
+      src: 'images/process-13.jpg',
+      w: 343,
+      h: 226
+    },
+    {
+      src: 'images/process-14.jpg',
+      w: 352,
+      h: 184
+    },
+    {
+      src: 'images/process-15.jpg',
+      w: 633,
+      h: 296
+    },
+    {
+      src: 'images/process-16.jpg',
+      w: 500,
+      h: 272,
+      title:
+        'All that is left to do is apply the waxed based paint and ship them to the customer.'
+    },
+    {
+      src: 'images/process-17.jpg',
+      w: 408,
+      h: 177
     }
   ];
 
