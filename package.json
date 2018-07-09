@@ -1,0 +1,22 @@
+{
+  "name": "sturgis-mat",
+  "version": "1.0.0",
+  "description": "A static site for Sturgis Mat Company.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html && cp ./parallax-images/* dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebetternewt/sturgis-mat.git"
+  },
+  "author": "Chris Eady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebetternewt/sturgis-mat/issues"
+  },
+  "homepage": "https://github.com/thebetternewt/sturgis-mat#readme"
+}

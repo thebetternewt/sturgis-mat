@@ -459,11 +459,6 @@ p {
     background-repeat: no-repeat !important;
 }
 
-.static-bg {
-    background: url(../images/information-banner-2.jpg);
-    background-attachment: fixed;
-}
-
 /* Button Setting + Hover Effects */
 
 .button-setting {
