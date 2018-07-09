@@ -4,7 +4,9 @@
   "description": "A static site for Sturgis Mat Company.",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel": "^1.9.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build index.html && cp ./parallax-images/* dist/"
