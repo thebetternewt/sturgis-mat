@@ -1,3 +1,20 @@
+/* Navbar */
+
+.navbar-brand>img {
+  width: 60px;
+}
+
+.navbar-brand>img.logo-after-scroll {
+  width: 180px;
+}
+
+/* Main Slider w/Video */
+
+.header-logo {
+  width: 500px;
+  max-width: 80vw;
+}
+
 /*Process Slider*/
 
 .process-slider {
@@ -34,4 +51,10 @@
 #main-slider-section video {
   object-fit: cover;
   min-height: 100%;
+}
+
+/* Contact Section  */
+
+.contact-heading img {
+  max-width: 90%;
 }

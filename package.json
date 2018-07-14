@@ -5,11 +5,13 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "cssnano": "^4.0.2",
     "parcel": "^1.9.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html && cp ./parallax-images/* dist/"
+    "build": "parcel build index.html && cp ./parallax-images/* dist/",
+    "serve": "parcel build index.html && cp ./parallax-images/* dist/ && parcel index.html"
   },
   "repository": {
     "type": "git",
