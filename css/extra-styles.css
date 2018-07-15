@@ -15,6 +15,13 @@
   max-width: 80vw;
 }
 
+/* Products Section */
+.catchy-text {
+  color: #745d9c;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
 /*Process Slider*/
 
 .process-slider {

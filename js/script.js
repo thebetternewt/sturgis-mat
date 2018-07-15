@@ -1,4 +1,24 @@
 import './maps.min';
+import PhotoSwipe from './photoswipe.min';
+import PhotoSwipeUI_Default from './photoswipe-ui-default.min';
+
+// PhotoSwipe Images
+import p1 from '../assets/img/process/process-1.jpg';
+import p3 from '../assets/img/process/process-2.jpg';
+import p4 from '../assets/img/process/process-4.jpg';
+import p5 from '../assets/img/process/process-5.jpg';
+import p6 from '../assets/img/process/process-6.jpg';
+import p7 from '../assets/img/process/process-7.jpg';
+import p8 from '../assets/img/process/process-8.jpg';
+import p9 from '../assets/img/process/process-9.jpg';
+import p10 from '../assets/img/process/process-10.jpg';
+import p11 from '../assets/img/process/process-11.jpg';
+import p12 from '../assets/img/process/process-12.jpg';
+import p13 from '../assets/img/process/process-13.jpg';
+import p14 from '../assets/img/process/process-14.jpg';
+import p15 from '../assets/img/process/process-15.jpg';
+import p16 from '../assets/img/process/process-16.jpg';
+import p17 from '../assets/img/process/process-17.jpg';
 
 // Preloader //
 $(window).on('load', function() {
@@ -380,98 +400,93 @@ const openPhotoSwipe = () => {
   // build items array
   var items = [
     {
-      src: 'images/process-1.jpg',
+      src: p1,
       w: 230,
       h: 420,
       title: 'Fine mats begin as fine timber.'
     },
-    // {
-    //   src: 'images/process-2.jpg',
-    //   w: 409,
-    //   h: 448
-    // },
     {
-      src: 'images/process-3.jpg',
+      src: p3,
       w: 456,
       h: 248,
       title:
         'Our timber harvesting division can be seen here processing future mats.'
     },
     {
-      src: 'images/process-4.jpg',
+      src: p4,
       w: 401,
       h: 265
     },
     {
-      src: 'images/process-5.jpg',
+      src: p5,
       w: 384,
       h: 306,
       title:
         'Next stop, the Sturgis Mat Company’s innovative mat making facility...'
     },
     {
-      src: 'images/process-6.jpg',
+      src: p6,
       w: 544,
       h: 337
     },
     {
-      src: 'images/process-7.jpg',
+      src: p7,
       w: 576,
       h: 340
     },
     {
-      src: 'images/process-8.jpg',
+      src: p8,
       w: 440,
       h: 280
     },
     {
-      src: 'images/process-9.jpg',
+      src: p9,
       w: 366,
       h: 281,
       title:
         'Once the logs arrive at the Sturgis Mat Company’s facility, they are cut to the specified size  and length, and then readied for the hole boring process.'
     },
     {
-      src: 'images/process-10.jpg',
+      src: p10,
       w: 396,
       h: 281
     },
     {
-      src: 'images/process-11.jpg',
+      src: p11,
       w: 408,
       h: 258
     },
     {
-      src: 'images/process-12.jpg',
+      src: p12,
       w: 611,
       h: 244,
       title:
         'The Sturgis Mat Company’s innovative mat making machine finishes the process off by boring the holes and installing the appropriate hardware (bolts, cables, etc.).'
     },
     {
-      src: 'images/process-13.jpg',
+      src: p13,
       w: 343,
       h: 226
     },
     {
-      src: 'images/process-14.jpg',
+      src: p14,
       w: 352,
       h: 184
     },
     {
-      src: 'images/process-15.jpg',
+      src: p15,
       w: 633,
       h: 296
     },
     {
-      src: 'images/process-16.jpg',
+      src: p16,
       w: 500,
       h: 272,
       title:
         'All that is left to do is apply the waxed based paint and ship them to the customer.'
     },
     {
-      src: 'images/process-17.jpg',
+      src: p17,
       w: 408,
       h: 177
     }
