@@ -250,6 +250,10 @@ p {
     font-weight: 900;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Page Spaces Classes */
 
 .padding-top-bottom {
@@ -1030,7 +1034,7 @@ p {
 .back-top:hover,
 .back-top:focus {
     color: #fff;
-    background: #00abc9;
+    background: #745d9c;
 }
 
 /*---- Header Styling Starts -----*/
